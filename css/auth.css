@@ -1,0 +1,56 @@
+body {
+    background: #413e3e;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 6px 100px 0 rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px; 
+   /* width: 300px; Вроде как мождно убрать */
+    background: #e3e1e1;
+    text-align: center;
+}
+
+.login {
+    border-bottom: 1px solid rgb(128, 128, 128);
+    border-block-start: 1px solid rgb(128, 128, 128);
+    padding: 10px 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input#password,#login {
+    padding: 8px; /* Отступ внутри полей ввода */
+    margin: 5px 0; /* Отступы между полями ввода и другими элементами */
+    border: 1px solid #ccc; /* Граница полей ввода */
+    border-radius: 20px; /* Сглаженные углы */
+    text-align: center;
+}
+
+
+button {
+    width: 100%; /* Установка ширины кнопки */
+    padding: 10px; /* Отступ внутри кнопки */
+    border: none; /* Убираем стандартные границы */
+    border-radius: 4px; /* Сглаженные углы */
+    background-color: #000000; /* Цвет фона кнопки */
+    color: white; /* Цвет текста на кнопке */
+    cursor: pointer; /* Указатель при наведении на кнопку */
+}
+
+button:hover {
+    background-color: #6b6a6a;
+}
+
+a {
+    color: rgb(33, 37, 41);
+}
