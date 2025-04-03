@@ -5,7 +5,7 @@ require_once '../includes/functions.php';
 require_once './fun.php';
 
 if (getCurrentUser()) {
-    header('Location: ../in.html');
+    header('Location: ../index.html');
     exit;
 }
 
@@ -20,7 +20,7 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
         // Запоминаем время захода
         usersStock($login);
 
-        header('Location: ../in.html');
+        header('Location: ../index.html');
         exit;
     } else {
         $_SESSION['error'] = 'Неверный логин или пароль.';
